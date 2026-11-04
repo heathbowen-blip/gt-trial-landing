@@ -1,11 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>F45 Golden Triangle — $30 Trial</title>
-<meta name="description" content="Try F45 Golden Triangle for 3 classes, just $30. No commitment, no membership required.">
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>F45 Training Golden Triangle — 3 Classes for $30</title>
+<meta name="description" content="Try F45 Training Golden Triangle: 3 classes for $30, to be used within 7 days.">
 <!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
@@ -16,239 +15,109 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', 'PIXEL_ID_PLACEHOLDER'); // TODO: replace with Golden Triangle's Meta Pixel ID
+fbq('init', '1462668409147452');
 fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=PIXEL_ID_PLACEHOLDER&ev=PageView&noscript=1"
+src="https://www.facebook.com/tr?id=1462668409147452&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
-
 <style>
-  :root {
-    --f45-red: #e2231a;
-    --f45-black: #111111;
-    --f45-gray: #4a4a4a;
-    --f45-light: #f7f7f7;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    color: var(--f45-black);
-    background: #fff;
-    line-height: 1.5;
-  }
-  .hero {
-    background: linear-gradient(180deg, var(--f45-black) 0%, #000 100%);
-    color: #fff;
-    padding: 56px 20px 64px;
-    text-align: center;
-  }
-  .hero .eyebrow {
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    font-size: 13px;
-    font-weight: 700;
-    color: var(--f45-red);
-    margin-bottom: 14px;
-  }
-  .hero h1 {
-    font-size: clamp(28px, 6vw, 44px);
-    font-weight: 800;
-    margin: 0 0 14px;
-    line-height: 1.15;
-  }
-  .hero p.sub {
-    font-size: clamp(16px, 2.6vw, 19px);
-    color: #d8d8d8;
-    max-width: 560px;
-    margin: 0 auto 30px;
-  }
-  .price-badge {
-    display: inline-flex;
-    align-items: baseline;
-    gap: 8px;
-    background: var(--f45-red);
-    color: #fff;
-    padding: 14px 28px;
-    border-radius: 999px;
-    font-weight: 800;
-    margin-bottom: 30px;
-  }
-  .price-badge .amount { font-size: 28px; }
-  .price-badge .label { font-size: 14px; font-weight: 600; opacity: 0.9; }
-  .cta-button {
-    display: inline-block;
-    background: #fff;
-    color: var(--f45-black);
-    font-weight: 800;
-    font-size: 18px;
-    padding: 18px 42px;
-    border-radius: 10px;
-    text-decoration: none;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.35);
-    transition: transform 0.15s ease;
-  }
-  .cta-button:hover { transform: translateY(-2px); }
-  .fine-print {
-    margin-top: 16px;
-    font-size: 13px;
-    color: #aaa;
-  }
-
-  .section {
-    max-width: 760px;
-    margin: 0 auto;
-    padding: 48px 20px;
-  }
-  .section h2 {
-    font-size: clamp(22px, 4vw, 28px);
-    font-weight: 800;
-    text-align: center;
-    margin: 0 0 32px;
-  }
-  .features {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 24px;
-  }
-  .feature {
-    background: var(--f45-light);
-    border-radius: 12px;
-    padding: 24px 20px;
-    text-align: center;
-  }
-  .feature .icon { font-size: 30px; margin-bottom: 10px; }
-  .feature h3 { font-size: 16px; font-weight: 700; margin: 0 0 6px; }
-  .feature p { font-size: 14px; color: var(--f45-gray); margin: 0; }
-
-  .steps {
-    counter-reset: step;
-    display: grid;
-    gap: 18px;
-  }
-  .step {
-    display: flex;
-    gap: 16px;
-    align-items: flex-start;
-  }
-  .step .num {
-    flex: 0 0 auto;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    background: var(--f45-black);
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 800;
-    font-size: 15px;
-  }
-  .step h3 { font-size: 16px; margin: 2px 0 4px; }
-  .step p { font-size: 14px; color: var(--f45-gray); margin: 0; }
-
-  .cta-repeat {
-    text-align: center;
-    padding: 48px 20px 64px;
-    background: var(--f45-light);
-  }
-  .cta-repeat .cta-button {
-    background: var(--f45-red);
-    color: #fff;
-  }
-
-  footer {
-    text-align: center;
-    padding: 24px 20px 40px;
-    font-size: 12px;
-    color: #999;
-  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #1a1a1a; background: #ffffff; line-height: 1.5; }
+  header { background: #111111; color: #ffffff; text-align: center; padding: 16px; font-weight: 800; letter-spacing: 2px; font-size: 14px; }
+  header span { color: #e01f26; }
+  main { max-width: 640px; margin: 0 auto; padding: 24px 20px 48px; }
+  .hero { text-align: center; padding: 24px 0 8px; }
+  .hero h1 { font-size: 44px; line-height: 1.1; margin-bottom: 12px; }
+  .hero h1 span { color: #e01f26; }
+  .hero p { font-size: 18px; color: #444444; margin-bottom: 12px; }
+  .hero .details { font-size: 15px; color: #666666; }
+  .cta { display: inline-block; background: #e01f26; color: #ffffff; text-decoration: none; font-weight: 700; font-size: 18px; padding: 14px 28px; border-radius: 8px; margin: 20px 0; }
+  .steps { background: #f6f6f6; border-radius: 12px; padding: 20px; margin: 24px 0; }
+  .steps h2 { font-size: 18px; margin-bottom: 10px; }
+  .steps ol { padding-left: 20px; color: #444444; }
+  .steps li { margin-bottom: 6px; }
+  form { border: 1px solid #dddddd; border-radius: 12px; padding: 24px; margin-top: 8px; }
+  form h2 { font-size: 22px; margin-bottom: 6px; }
+  form p { color: #555555; margin-bottom: 16px; font-size: 15px; }
+  label { display: block; font-weight: 600; font-size: 14px; margin: 12px 0 4px; }
+  input { width: 100%; padding: 12px; font-size: 16px; border: 1px solid #cccccc; border-radius: 8px; }
+  button { width: 100%; background: #e01f26; color: #ffffff; border: none; font-weight: 700; font-size: 18px; padding: 14px; border-radius: 8px; margin-top: 20px; cursor: pointer; }
+  button:disabled { opacity: 0.6; cursor: default; }
+  .privacy { font-size: 13px; color: #777777; margin-top: 14px; }
+  footer { text-align: center; color: #777777; font-size: 13px; padding: 24px 20px; border-top: 1px solid #eeeeee; }
 </style>
 </head>
 <body>
-
+<header>F45 TRAINING <span>GOLDEN TRIANGLE</span></header>
+<main>
   <section class="hero">
-    <div class="eyebrow">F45 Golden Triangle · Denver, CO</div>
-    <h1>3 Classes. One Studio.<br>Zero Excuses.</h1>
-    <p class="sub">Try the team training workout everyone's talking about — full access to F45 Golden Triangle for 3 classes, no membership required.</p>
-    <div class="price-badge">
-      <span class="amount">$30</span>
-      <span class="label">for 3 classes</span>
-    </div>
-    <br>
-    <a href="https://buy.stripe.com/7sY28q0Od0MUdCC3R37N601" class="cta-button" id="cta-hero">Claim Your $30 Trial</a>
-    <div class="fine-print">No commitment · No auto-renewal · New clients only</div>
+    <h1>3 Classes for <span>$30</span></h1>
+    <p>45 minutes of coach-led team training. High energy, all fitness levels, and a community that pushes you further.</p>
+    <p><strong>To be used within 7 days.</strong></p>
+    <p class="details">919 Bannock St, Denver, CO 80204 &middot; 303-285-4236</p>
+    <a class="cta" href="#signup">Claim the offer</a>
   </section>
 
-  <section class="section">
-    <h2>What You Get</h2>
-    <div class="features">
-      <div class="feature">
-        <div class="icon">🔥</div>
-        <h3>3 Full Classes</h3>
-        <p>Experience real F45 team training, not a watered-down intro session.</p>
-      </div>
-      <div class="feature">
-        <div class="icon">🧑‍🏫</div>
-        <h3>Coached Every Rep</h3>
-        <p>Certified trainers guide you through every workout, every time.</p>
-      </div>
-      <div class="feature">
-        <div class="icon">🤝</div>
-        <h3>Real Community</h3>
-        <p>Train alongside a studio full of people who'll push you to show up.</p>
-      </div>
-    </div>
+  <section class="steps">
+    <h2>How it works</h2>
+    <ol>
+      <li>Fill in your details below.</li>
+      <li>Complete your $30 payment securely (Apple Pay and cards accepted).</li>
+      <li>We set up your Mindbody account and you are ready to book your first class.</li>
+    </ol>
   </section>
 
-  <section class="section">
-    <h2>How It Works</h2>
-    <div class="steps">
-      <div class="step">
-        <div class="num">1</div>
-        <div>
-          <h3>Claim your spot</h3>
-          <p>Pay $30 securely below — takes less than a minute.</p>
-        </div>
-      </div>
-      <div class="step">
-        <div class="num">2</div>
-        <div>
-          <h3>We'll reach out</h3>
-          <p>Our team will text or call to get you booked into your first class.</p>
-        </div>
-      </div>
-      <div class="step">
-        <div class="num">3</div>
-        <div>
-          <h3>Show up and train</h3>
-          <p>Come as you are — we'll handle the rest. No equipment needed.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="cta-repeat">
-    <h2 style="margin-bottom:20px;">Ready to try F45 Golden Triangle?</h2>
-    <a href="https://buy.stripe.com/7sY28q0Od0MUdCC3R37N601" class="cta-button" id="cta-footer">Claim Your $30 Trial</a>
-  </section>
-
-  <footer>
-    F45 Training Golden Triangle · Denver, CO · This offer is for new clients only.
-  </footer>
-
-  <script>
-    // Fire a Lead event when either CTA is clicked (before redirect to Stripe)
-    document.querySelectorAll('#cta-hero, #cta-footer').forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        if (typeof fbq === 'function') {
-          fbq('track', 'Lead');
-        }
-      });
-    });
-  </script>
-
+  <form id="signup">
+    <h2>Claim 3 classes for $30</h2>
+    <p>Fill in your details, then complete your $30 payment to activate your trial.</p>
+    <label for="first_name">First name</label>
+    <input id="first_name" name="first_name" type="text" autocomplete="given-name" required>
+    <label for="last_name">Last name</label>
+    <input id="last_name" name="last_name" type="text" autocomplete="family-name" required>
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" autocomplete="email" required>
+    <label for="phone">Phone</label>
+    <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+    <button id="submit-btn" type="submit">Continue to payment &mdash; $30</button>
+    <p class="privacy">By submitting, your details will be used to create your Mindbody account and contact you about your trial. We do not sell your information.</p>
+  </form>
+</main>
+<footer>
+  F45 Training Golden Triangle &middot; 919 Bannock St, Denver, CO 80204 &middot; 303-285-4236
+</footer>
+<script>
+  var WEBHOOK_URL = "https://hooks.zapier.com/hooks/catch/27560478/49w4lm6/";
+  var STRIPE_URL = "https://buy.stripe.com/dRm4gy40p9jqdCCevH7N600";
+  document.getElementById("signup").addEventListener("submit", function (e) {
+    e.preventDefault();
+    var btn = document.getElementById("submit-btn");
+    btn.disabled = true;
+    btn.textContent = "Processing...";
+    var data = {
+      first_name: document.getElementById("first_name").value.trim(),
+      last_name: document.getElementById("last_name").value.trim(),
+      email: document.getElementById("email").value.trim(),
+      phone: document.getElementById("phone").value.trim(),
+      offer: "3 Classes for $30",
+      studio: "F45 Training Golden Triangle"
+    };
+    try {
+      if (typeof fbq === "function") {
+        fbq("track", "Lead", { content_name: "3 Classes for $30 Trial" });
+      }
+    } catch (err) { /* tracking must never block signup */ }
+    try {
+      var payload = JSON.stringify(data);
+      if (navigator.sendBeacon) {
+        navigator.sendBeacon(WEBHOOK_URL, new Blob([payload], { type: "application/json" }));
+      } else {
+        fetch(WEBHOOK_URL, { method: "POST", headers: { "Content-Type": "application/json" }, body: payload, keepalive: true }).catch(function () {});
+      }
+    } catch (err) { /* lead capture failure must never block payment */ }
+    window.location.href = STRIPE_URL;
+  });
+</script>
 </body>
 </html>
